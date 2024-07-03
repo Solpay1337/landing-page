@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen pt-[70px]">
       <Navbar />
-      <div className="flex-1 flex flex-row">
+      <div className="flex-1 flex flex-col md:flex-row">
         <Hero />
         <Cta />
       </div>
